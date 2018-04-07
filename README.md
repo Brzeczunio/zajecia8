@@ -6,20 +6,52 @@
 
 Modele dostarczania oprogramowania:
 ---
-Private         Infrastructure    Platfrom            Software
-(On-Premise)    (as a Service)    (as a Service)      (as a Service)
-wszystkie       Serwer itd.       tylko apliakcja     Wystawia API
-usługi          w chmurze         w chmurze
-u nas
-
+```
+Private
+(On-Premise)
+wszystkie usługi u nas
+```
+```
+Infrastructure
+(as a Service)
+Serwer itd. w chmurze
+```
+```
+Platfrom
+(as a Service)
+tylko apliakcja w chmurze
+```
+```
+Software
+(as a Service)
+Wystawia API
+```
 Czym zarządzamy w poszczególnych modelach dostarczania oprogramowania
 ---
-Applications    Applications      Applications
-Runtimes        Runtimes
-Security        Security
-Databases       Database
+Private (On-Premise)
+```
+Applications          
+Runtimes        
+Security        
+Databases       
 Servers
 Virtualization
 Hardware
 Storage
 Networking
+```
+Infrastructure (as a Service)
+```
+Applications
+Runtimes
+Security
+Database
+```
+Platfrom (as a Service)
+```
+Applications
+```
+Software (as a Service)
+```
+Tylko Applications
+```
